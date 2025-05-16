@@ -47,10 +47,18 @@ Crop_Disease_Detection/
 ├── app.py # Streamlit app for image prediction and chatbot UI
 │
 ├── plant-disease.h5 # Final trained model file (also not uploaded to GitHub)
-├── Plant_Disease_Prediction_CNN_Image_Classification.ipynb # Model training Jupyter notebook
+├── Plant_Disease_Prediction_CNN_Image_Classification.ipynb # Model training notebook
+├── frontend/ # React-based UI (under development)
+│ ├── public/
+│ ├── src/
+│ ├── package.json
+│ ├── package-lock.json
+│ └── .gitignore
 │
 ├── requirements.txt # Python dependencies
 
+
+> 🔧 **Note:** The React-based frontend app (`frontend/`) is currently in progress and will be finalized once the RAG chatbot backend integration is fully functional.
 
 ---
 
